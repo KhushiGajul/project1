@@ -6,7 +6,7 @@ import { UserInfoContext } from "../contexts/UserInfoContext";
 import { LinksContext } from "../contexts/LinksContext";
 
 
-function Nav() {
+function Navbar() {
 
   const {userInfo}= useContext(UserInfoContext);
   const{getLinkDetails} = useContext(LinksContext);
@@ -54,4 +54,4 @@ function Nav() {
   );
 }
 
-export default Nav; 
+export default Navbar; 
